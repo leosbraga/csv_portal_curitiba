@@ -1,15 +1,14 @@
 {
   "name": "Saúde Médicos",
   "description": "Base de dados do sistema Informatizado \"E-saúde\". Este sistema viabiliza o registro dos atendimentos médicos prestados pela Secretaria Municipal de Saúde de Curitiba em sua rede de atenção.",
+  "slug":"saude-medicos",
   "csv": [
     {
       "slug":"medicos",
       "name":"saude medicos-dados abertos",
       "url":"http://multimidia.curitiba.pr.gov.br/dadosabertos/SESPAMedicoUnidadesMunicipaisDeSaude/2016-11-09_saude_medicos-dados_abertos.csv",
       "docs": {
-        "example_find_item": "find={\"Data do Atendimento\":\"01/01/2016\"}",
-        "example_find_item": "find={\"Data de Nascimento\":\"01/01/2016\"}",
-        "example_find_items": "find={\"SEXO\":\"F\"}&limit=5",
+        "example_find_item": "find={\"Data do Atendimento\":\"01/01/2016\"}"
       }
     }
   ],
@@ -17,6 +16,6 @@
     {
       "name": "Medicos-dados - Dicionario de Dados",
       "url": "http://multimidia.curitiba.pr.gov.br/dadosabertos/SESPAMedicoUnidadesMunicipaisDeSaude/2016-10-11_saude_medicos-dicionario_de_dados.csv"
-    },
+    }
   ]  
 }
