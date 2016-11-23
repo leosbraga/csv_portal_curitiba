@@ -6,17 +6,17 @@
       "slug":"156",
       "name":"156 - Base de Dados",
       "url":"http://multimidia.curitiba.pr.gov.br/dadosabertos/156/2016-11-01_156_-_Base_de_Dados.csv",
-      "refs": [
-        {
-          "name": "156 - Dicionario de Dados",
-          "url": "http://multimidia.curitiba.pr.gov.br/dadosabertos/156/2015-11-26_156_-_Dicionario_de_Dados.xlsx"
-        }
-      ],
       "docs": {
         "example_find_item": "find={\"SOLICITACAO\":\"6638498\"}",
         "example_find_items": "find={\"SEXO\":\"F\"}&limit=5",
         "example_field_values": "ORGAO"
       }
     }
-  ]
+  ],
+  "refs": [
+    {
+      "name": "156 - Dicionario de Dados",
+      "url": "http://multimidia.curitiba.pr.gov.br/dadosabertos/156/2015-11-26_156_-_Dicionario_de_Dados.xlsx"
+    }
+  ]  
 }
