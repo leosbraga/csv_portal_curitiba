@@ -1,0 +1,152 @@
+{
+  "name": "Portal FCC",
+  "description": "Dados e informações sobre os espaços culturais da cidade, bem como informações vinculadas à Lei de Incentivo à Cultura",
+  "slug":"fcc"
+  "csv": [
+    {
+      "slug":"area",
+      "name":"Fundacao Cultural - Area",
+      "url":"http://multimidia.curitiba.pr.gov.br/dadosabertos/FundacaoCultural/2016-11-01_Fundacao_Cultural_-_Area_-_Base_de_Dados.csv",
+      "docs": {
+      }
+    },
+    {
+      "slug":"bairro",
+      "name":"Fundacao Cultural - Bairro",
+      "url":"http://multimidia.curitiba.pr.gov.br/dadosabertos/FundacaoCultural/2016-11-01_Fundacao_Cultural_-_Bairro_-_Base_de_Dados.csv",
+      "docs": {
+      }
+    },
+    {
+      "slug":"categoria-lei-incentivo",
+      "name":"Fundacao Cultural - Categoria Lei do Incentivo",
+      "url":"http://multimidia.curitiba.pr.gov.br/dadosabertos/FundacaoCultural/2016-11-01_Fundacao_Cultural_-_Categoria_Lei_do_Incentivo_-_Base_de_Dados.csv",
+      "docs": {
+      }
+    },
+    {
+      "slug":"conteudo-lei-incentivo",
+      "name":"Fundacao Cultural - Conteudo Lei do Incentivo",
+      "url":"http://multimidia.curitiba.pr.gov.br/dadosabertos/FundacaoCultural/2016-11-01_Fundacao_Cultural_-_Conteudo_Lei_do_Incentivo_-_Base_de_Dados.csv",
+      "docs": {
+      }
+    },
+    {
+      "slug":"curso",
+      "name":"Fundacao Cultural - Curso",
+      "url":"http://multimidia.curitiba.pr.gov.br/dadosabertos/FundacaoCultural/2016-11-01_Fundacao_Cultural_-_Curso_-_Base_de_Dados.csv",
+      "docs": {
+      }
+    },
+    {
+      "slug":"edital",
+      "name":"Fundacao Cultural - Edital",
+      "url":"http://multimidia.curitiba.pr.gov.br/dadosabertos/FundacaoCultural/2016-11-01_Fundacao_Cultural_-_Edital_-_Base_de_Dados.csv",
+      "docs": {
+      }
+    },
+    {
+      "slug":"endereco",
+      "name":"Fundacao Cultural - Endereco",
+      "url":"http://multimidia.curitiba.pr.gov.br/dadosabertos/FundacaoCultural/2016-11-01_Fundacao_Cultural_-_Endereco_-_Base_de_Dados.csv",
+      "docs": {
+      }
+    },
+    {
+      "slug":"espaco",
+      "name":"Fundacao Cultural - Espaco",
+      "url":"http://multimidia.curitiba.pr.gov.br/dadosabertos/FundacaoCultural/2016-11-01_Fundacao_Cultural_-_Espaco_-_Base_de_Dados.csv",
+      "docs": {
+      }
+    },
+    {
+      "slug":"evento",
+      "name":"Fundacao Cultural - Evento",
+      "url":"http://multimidia.curitiba.pr.gov.br/dadosabertos/FundacaoCultural/2016-11-01_Fundacao_Cultural_-_Evento_-_Base_de_Dados.csv",
+      "docs": {
+      }
+    },
+    {
+      "slug":"evento-data",
+      "name":"Fundacao Cultural - Evento Data",
+      "url":"http://multimidia.curitiba.pr.gov.br/dadosabertos/FundacaoCultural/2016-11-01_Fundacao_Cultural_-_Evento_Data_-_Base_de_Dados.csv",
+      "docs": {
+      }
+    },
+    {
+      "slug":"formulario",
+      "name":"Fundacao Cultural - Formulario",
+      "url":"http://multimidia.curitiba.pr.gov.br/dadosabertos/FundacaoCultural/2016-11-01_Fundacao_Cultural_-_Formulario_-_Base_de_Dados.csv",
+      "docs": {
+      }
+    },
+    {
+      "slug":"formulario-campo",
+      "name":"Fundacao Cultural - Formulario Campo",
+      "url":"http://multimidia.curitiba.pr.gov.br/dadosabertos/FundacaoCultural/2016-11-01_Fundacao_Cultural_-_Formulario_Campo_-_Base_de_Dados.csv",
+      "docs": {
+      }
+    },
+    {
+      "slug":"nucleo",
+      "name":"Fundacao Cultural - Nucleo",
+      "url":"http://multimidia.curitiba.pr.gov.br/dadosabertos/FundacaoCultural/2016-11-01_Fundacao_Cultural_-_Nucleo_-_Base_de_Dados.csv",
+      "docs": {
+      }
+    }
+  ],
+  "refs": [
+    {
+      "name": "Fundacao Cultural - Area",
+      "url": "http://multimidia.curitiba.pr.gov.br/dadosabertos/FundacaoCultural/2016-03-23_Fundacao_Cultural_-_Area_-_Dicionario_de_Dados.xlsx"
+    },
+    {
+      "name": "Fundacao Cultural - Bairro",
+      "url": "http://multimidia.curitiba.pr.gov.br/dadosabertos/FundacaoCultural/2016-03-23_Fundacao_Cultural_-_Bairro_-_Dicionario_de_Dados.xlsx"
+    },
+    {
+      "name": "Fundacao Cultural - Categoria Lei de Incentivo",
+      "url": "http://multimidia.curitiba.pr.gov.br/dadosabertos/FundacaoCultural/2016-03-23_Fundacao_Cultural_-_Categoria_Lei_do_Incentivo_-_Dicionario_de_Dados.xlsx"
+    },
+    {
+      "name": "Fundacao Cultural - Conteudo Lei de Incentivo",
+      "url": "http://multimidia.curitiba.pr.gov.br/dadosabertos/FundacaoCultural/2016-03-23_Fundacao_Cultural_-_Conteudo_Lei_do_Incentivo_-_Dicionario_de_Dados.xlsx"
+    },
+    {
+      "name": "Fundacao Cultural - Curso",
+      "url": "http://multimidia.curitiba.pr.gov.br/dadosabertos/FundacaoCultural/2016-03-23_Fundacao_Cultural_-_Curso_-_Dicionario_de_Dados.xlsx"
+    },
+    {
+      "name": "Fundacao Cultural - Edital",
+      "url": "http://multimidia.curitiba.pr.gov.br/dadosabertos/FundacaoCultural/2016-03-23_Fundacao_Cultural_-_Edital_-_Dicionario_de_Dados.xlsx"
+    },
+    {
+      "name": "Fundacao Cultural - Endereco",
+      "url": "http://multimidia.curitiba.pr.gov.br/dadosabertos/FundacaoCultural/2016-03-23_Fundacao_Cultural_-_Endereco_-_Dicionario_de_Dados.xlsx"
+    },
+    {
+      "name": "Fundacao Cultural - Espaco",
+      "url": "http://multimidia.curitiba.pr.gov.br/dadosabertos/FundacaoCultural/2016-03-23_Fundacao_Cultural_-_Espaco_-_Dicionario_de_Dados.xlsx"
+    },
+    {
+      "name": "Fundacao Cultural - Evento",
+      "url": "http://multimidia.curitiba.pr.gov.br/dadosabertos/FundacaoCultural/2016-04-13_Fundacao_Cultural_-_Evento_-_Dicionario_de_Dados.xlsx"
+    },
+    {
+      "name": "Fundacao Cultural - Evento Data",
+      "url": "http://multimidia.curitiba.pr.gov.br/dadosabertos/FundacaoCultural/2016-04-13_Fundacao_Cultural_-_Evento_Data_-_Dicionario_de_Dados.xlsx"
+    },
+    {
+      "name": "Fundacao Cultural - Formulario",
+      "url": "http://multimidia.curitiba.pr.gov.br/dadosabertos/FundacaoCultural/2016-03-23_Fundacao_Cultural_-_Formulario_-_Dicionario_de_Dados.xlsx"
+    },
+    {
+      "name": "Fundacao Cultural - Formulario Campo",
+      "url": "http://multimidia.curitiba.pr.gov.br/dadosabertos/FundacaoCultural/2016-03-23_Fundacao_Cultural_-_Formulario_Campo_-_Dicionario_de_Dados.xlsx"
+    },
+    {
+      "name": "Fundacao Cultural - Nucleo",
+      "url": "http://multimidia.curitiba.pr.gov.br/dadosabertos/FundacaoCultural/2016-03-23_Fundacao_Cultural_-_Nucleo_-_Dicionario_de_Dados.xlsx"
+    }
+  ]  
+}
