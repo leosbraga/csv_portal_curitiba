@@ -1,0 +1,30 @@
+{
+  "name": "Pesquisa da Linha Turismo",
+  "description": "Base de dados referente às entrevistas realizadas com o público que assiste às principais apresentações de Natal na cidade de Curitiba, entre elas estão o Palácio Avenida, Paço da Liberdade, Hotel Radisson. Os blocos de perguntas estão divididos em procedência do público, informações dos turistaBase de dados referente às entrevistas realizadas com os usuários da Linha Turismo. Os blocos de perguntas estão divididos em procedência do público, informações dos turistas, comportamento, opinião, perfil e sugestões.",
+  "csv": [
+    {
+      "slug":"2013",
+      "name":"Dados Brutos Pesquisa da Linha Turismo 2013",
+      "url":"http://multimidia.curitiba.pr.gov.br/dadosabertos/PesquisaLinhaTurismo/2016-02-16_Dados_Brutos_Pesquisa_da_Linha_Turismo_2013_-_Base_de_Dados.csv",
+      "docs": {
+      }
+    },
+    {
+      "slug":"2014",
+      "name":"Dados Brutos Pesquisa da Linha Turismo 2014",
+      "url":"http://multimidia.curitiba.pr.gov.br/dadosabertos/PesquisaLinhaTurismo/2016-02-16_Dados_Brutos_Pesquisa_da_Linha_Turismo_2014_-_Base_de_Dados.csv",
+      "docs": {
+      }
+    }
+  ],
+  "refs": [
+    {
+      "name": "Dados Brutos Pesquisa da Linha Turismo 2013",
+      "url": "http://multimidia.curitiba.pr.gov.br/dadosabertos/PesquisaLinhaTurismo/2016-02-16_Dados_Brutos_Pesquisa_da_Linha_Turismo_2013_-_Dicionario_de_Dados.xlsx"
+    },
+    {
+      "name": "Dados Brutos Pesquisa da Linha Turismo 2014",
+      "url": "http://multimidia.curitiba.pr.gov.br/dadosabertos/PesquisaLinhaTurismo/2016-02-16_Dados_Brutos_Pesquisa_da_Linha_Turismo_2014_-_Dicionario_de_Dados.xlsx"
+    }
+  ]  
+}
