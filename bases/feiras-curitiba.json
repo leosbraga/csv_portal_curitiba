@@ -1,0 +1,30 @@
+{
+  "name": "Dados Brutos Pesquisa de Natal",
+  "description": "Base de dados referente às entrevistas realizadas com o público que assiste às principais apresentações de Natal na cidade de Curitiba, entre elas estão o Palácio Avenida, Paço da Liberdade, Hotel Radisson. Os blocos de perguntas estão divididos em procedência do público, informações dos turistas, comportamento, opinião, perfil e sugestões.",
+  "csv": [
+    {
+      "slug":"pesquisa2013",
+      "name":"Dados Brutos Pesquisa de Natal 2013",
+      "url":"http://multimidia.curitiba.pr.gov.br/dadosabertos/PesquisaNatal/2016-02-02_Dados_Brutos_Pesquisa_de_Natal_2013_-_Base_de_Dados.csv",
+      "docs": {
+      }
+    },
+    {
+      "slug":"pesquisa2014",
+      "name":"Dados Brutos Pesquisa de Natal 2014",
+      "url":"http://multimidia.curitiba.pr.gov.br/dadosabertos/PesquisaNatal/2015-08-12_Dados_Brutos_Pesquisa_de_Natal_2014_-_Base_de_Dados.csv",
+      "docs": {
+      }
+    }
+  ],
+  "refs": [
+    {
+      "name": "Dados Brutos Pesquisa de Natal 2013",
+      "url": "http://multimidia.curitiba.pr.gov.br/dadosabertos/PesquisaNatal/2016-02-02_Dados_Brutos_Pesquisa_de_Natal_2013_-_Dicionario_de_dados.xlsx"
+    },
+    {
+      "name": "Dados Brutos Pesquisa de Natal 2014",
+      "url": "http://multimidia.curitiba.pr.gov.br/dadosabertos/PesquisaNatal/2016-02-02_Dados_Brutos_Pesquisa_de_Natal_2014-_Dicionario_de_dados.xls"
+    }
+  ]  
+}
