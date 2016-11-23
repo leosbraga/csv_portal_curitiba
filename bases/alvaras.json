@@ -1,6 +1,7 @@
 {
   "name": "Financeiro Alvarás",
   "description": "Relação de alvarás para liberação de atividades comercias e edificações dentro do município de Curitiba.",
+  "slug":"alvaras",
   "csv": [
     {
       "slug":"alvaras",

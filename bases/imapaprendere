@@ -1,6 +1,7 @@
 {
   "name": "Aprendere",
   "description": "Programação de cursos e eventos promovidos pelo IMAP, Educação e Saúde, para os servidores municipais de Curitiba, Região Metropolitana e Comunidade. Na base podemos encontrar o ano de execução dos cursos, a área temática e a carga horária. Quantidade de participantes inscritos e quantidade de participantes certificados",
+  "slug":"aprendere",
   "csv": [
     {
       "slug":"imap",
