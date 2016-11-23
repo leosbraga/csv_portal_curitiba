@@ -11,4 +11,12 @@
     </div>
 </div>
 
+<div class="row">
+	<% bases.forEach(function(base){ %>
+	    <div class="col-sm-4">
+	    	<%- include('../partials/base', {base: base}) %>
+	    </div>
+	<% }); %>
+</div>
+
 <% include ../partials/footer %>

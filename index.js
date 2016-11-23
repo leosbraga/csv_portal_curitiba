@@ -6,6 +6,7 @@ global.Promise = bluebird;
 const env = process.env.NODE_ENV || 'development';
 
 const express = require('express');
+const fs = require('fs');
 
 const app = express();
 module.exports = app;
@@ -13,8 +14,35 @@ module.exports = app;
 app.set('view engine', 'ejs');
 
 app.get('/', (req, res) => {
-  res.render('pages/index', {
-  });
+
+
+	const base_dir = __dirname + '/bases';
+	fs.readdir(base_dir, (err, files) => {
+		let bases = [];
+		if (!err) {
+			Promise.map(files, filename => {
+				try {
+					let base = fs.readFileSync(base_dir + "/" + filename, "utf-8");
+					bases.push(JSON.parse(base));
+				} catch (err) {
+					console.log(err);
+				}
+				return true;
+			}).then(result => {
+				res.render('pages/index', {
+					bases: bases
+				});
+		    })
+			.catch(err => {
+			  console.error(`Error on ${req.path}, err: ${err}`);
+			  res.status(500).end();
+			});;
+		} else {
+		  console.error(`Error on ${req.path}, err: ${err}`);
+		  res.status(500).end();
+		}
+	})
+
 });
 
 const port = process.env.PORT  || 8081; // set our port
