@@ -3,14 +3,14 @@
   "description": "Base de dados do Programa \"Disque Economia\". Este sistema viabiliza o serviço prestado pela Secretaria Municipal do Abastecimento de Curitiba, a qual coloca à disposição para consulta o preço de 302 itens que são coletados em 14 supermercados da cidade. A lista dos itens pesquisados é composta por gêneros alimentícios como hortifrutigranjeiros, bebidas, massas, carnes e ainda material de higiene e limpeza, levando em conta quantidades e marcas.",
   "csv": [
     {
-      "slug":"Disque Economia",
+      "slug":"pesquisa",
       "name":"Disque Economia - Base de Dados",
       "url":"http://multimidia.curitiba.pr.gov.br/dadosabertos/DisqueEconomia/2016-11-21_Disque_Economia_-_Base_de_Dados.csv",
       "docs": {
       }
     },
     {
-      "slug":"Disque Economia - Produto",
+      "slug":"produtos",
       "name":"Disque Economia - Produto - Base de Dados",
       "url":"http://multimidia.curitiba.pr.gov.br/dadosabertos/DisqueEconomia/2016-11-21_Disque_Economia_-_Produto_-_Base_de_Dados.csv",
       "docs": {
