@@ -3,7 +3,7 @@
   "description": "Base contendo os dados das ocorrências atendidas pela Guarda Municipal de Curitiba.",
   "csv": [
     {
-      "slug":"sigesguarda",
+      "slug":"guarda",
       "name":"Sigesguarda - Base de Dados",
       "url":"http://multimidia.curitiba.pr.gov.br/dadosabertos/Sigesguarda/2016-11-01_sigesguarda_-_Base_de_Dados.csv",
       "docs": {
