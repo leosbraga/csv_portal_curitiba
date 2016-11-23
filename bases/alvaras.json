@@ -8,7 +8,6 @@
       "url":"http://multimidia.curitiba.pr.gov.br/dadosabertos/BaseAlvaras/2016-11-01_Alvaras-Base_de_Dados.CSV",
       "docs": {
         "example_find_item": "find={\"Data do Atendimento\":\"01/01/2016\"}",
-        "example_find_item": "find={\"Data de Nascimento\":\"01/01/2016\"}",
         "example_find_items": "find={\"SEXO\":\"F\"}&limit=5"
       }
     }
@@ -17,6 +16,6 @@
     {
       "name": "Alvarás - Dicionario de Dados",
       "url": "http://multimidia.curitiba.pr.gov.br/dadosabertos/BaseAlvaras/2015-05-06_Alvaras-Dicionario_de_Dados.csv"
-    },
-  ]  
+    }
+  ]
 }
