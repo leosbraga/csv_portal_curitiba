@@ -1,0 +1,33 @@
+{
+  "name": "csv",
+  "version": "0.0.1",
+  "description": "Web portal to reference open data API using project CSV_API",
+  "main": "index.js",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0"
+  },
+  "author": "Thierry Delbart <thierry@thde.pro>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "webservice",
+    "api",
+    "opendata",
+    "json",
+    "csv"
+  ],
+  "engines": {
+    "node": ">= 6",
+    "npm": ">= 3"
+  }
+}
