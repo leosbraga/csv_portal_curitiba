@@ -1,0 +1,20 @@
+{
+  "name": "LEGISLADOC",
+  "description": O Sistema Municipal de Legislação (Legisladoc) é um sistema destinado a oferecer ao cidadão acesso online aos atos oficiais e ao Diário Oficial Eletrônico do Município. Tem como principais produtos a assinatura digital, a certificação eletrônica, o diário oficial com edições diárias, pesquisa da legislação municipal via intranet e internet, que trazem segurança, confiabilidade, transparência, clareza e publicidade.,
+  "csv": [
+    {
+      "slug":"legisladoc",
+      "name":"LEGISLADOC - Base de Dados",
+      "url":"http://multimidia.curitiba.pr.gov.br/dadosabertos/Legisladoc/2016-11-23_legisladoc_-_Base_de_Dados.csv",
+      "docs": {
+        
+      }
+    }
+  ],
+  "refs": [
+    {
+      "name": "LEGISLADOC - Base de Dados",
+      "url": "http://multimidia.curitiba.pr.gov.br/dadosabertos/Legisladoc/2015-12-01_Legisladoc_-_Dicionario_de_Dados.xlsx"
+    }
+  ]  
+}
