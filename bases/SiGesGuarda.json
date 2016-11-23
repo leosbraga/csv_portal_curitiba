@@ -1,6 +1,7 @@
 {
   "name": "SiGesGuarda",
   "description": "Base contendo os dados das ocorrências atendidas pela Guarda Municipal de Curitiba.",
+  "slug":"sigesguarda",
   "csv": [
     {
       "slug":"guarda",
