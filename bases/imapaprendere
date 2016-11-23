@@ -1,0 +1,20 @@
+{
+  "name": "Aprendere",
+  "description": "Programação de cursos e eventos promovidos pelo IMAP, Educação e Saúde, para os servidores municipais de Curitiba, Região Metropolitana e Comunidade. Na base podemos encontrar o ano de execução dos cursos, a área temática e a carga horária. Quantidade de participantes inscritos e quantidade de participantes certificados",
+  "csv": [
+    {
+      "slug":"imapaprendere",
+      "name":"imapaprendere - Base de Dados",
+      "url":"http://multimidia.curitiba.pr.gov.br/dadosabertos/IMAPAprendere/2016-11-01_imapaprendere_-_Base_de_Dados.csv",
+      "docs": {
+        
+      }
+    }
+  ],
+  "refs": [
+    {
+      "name": "imapaprendere - Base de Dados",
+      "url": "http://multimidia.curitiba.pr.gov.br/dadosabertos/IMAPAprendere/2015-11-25_imapaprendere_-_Dicionario_de_Dados.xlsx"
+    }
+  ]  
+}
