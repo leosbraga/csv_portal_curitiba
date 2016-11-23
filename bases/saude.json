@@ -1,0 +1,50 @@
+{
+  "name": "Saúde",
+  "description": "Base de dados do sistema Informatizado \"E-saúde\". Este sistema viabiliza o registro dos atendimentos prestados pela Secretaria Municipal de Saúde de Curitiba em sua rede de atenção.",
+  "csv": [
+    {
+      "slug":"medicos",
+      "name":"saude medicos-dados abertos",
+      "url":"http://multimidia.curitiba.pr.gov.br/dadosabertos/SESPAMedicoUnidadesMunicipaisDeSaude/2016-11-09_saude_medicos-dados_abertos.csv",
+      "docs": {
+        "example_find_item": "find={\"Data do Atendimento\":\"01/01/2016\"}",
+        "example_find_item": "find={\"Data de Nascimento\":\"01/01/2016\"}",
+        "example_find_items": "find={\"SEXO\":\"F\"}&limit=5",
+      }
+    }
+    {
+      "slug":"enfermeiros",
+      "name":"saude enfermeiros-dados abertos",
+      "url":"http://multimidia.curitiba.pr.gov.br/dadosabertos/sespaenfermagem/2016-11-09_saude_enfermeiros-dados_abertos.csv",
+      "docs": {
+        "example_find_item": "find={\"Data do Atendimento\":\"01/01/2016\"}",
+        "example_find_item": "find={\"Data de Nascimento\":\"01/01/2016\"}",
+        "example_find_items": "find={\"SEXO\":\"F\"}&limit=5",
+      }
+    }
+    {
+      "slug":"dentistas",
+      "name":"saude dentistas-dados abertos",
+      "url":"http://multimidia.curitiba.pr.gov.br/dadosabertos/sespaodontologico/2016-11-09_saude_dentistas-dados_abertos.csv",
+      "docs": {
+        "example_find_item": "find={\"Data do Atendimento\":\"01/01/2016\"}",
+        "example_find_item": "find={\"Data de Nascimento\":\"01/01/2016\"}",
+        "example_find_items": "find={\"SEXO\":\"F\"}&limit=5",
+      }   
+    }
+  ],
+  "refs": [
+    {
+      "name": "Medicos-dados - Dicionario de Dados",
+      "url": "http://multimidia.curitiba.pr.gov.br/dadosabertos/SESPAMedicoUnidadesMunicipaisDeSaude/2016-10-11_saude_medicos-dicionario_de_dados.csv"
+    },
+    {
+      "name": "Enfermeiros-dados - Dicionario de Dados",
+      "url": "http://multimidia.curitiba.pr.gov.br/dadosabertos/sespaenfermagem/2016-10-11_saude_enfermeiros-dicionario_de_dados.csv"
+    },
+    {
+      "name": "Dentistas-dados - Dicionario de Dados",
+      "url": "http://multimidia.curitiba.pr.gov.br/dadosabertos/sespaodontologico/2016-10-11_saude_dentistas-dicionario_de_dados.csv"
+    }
+  ]  
+}
