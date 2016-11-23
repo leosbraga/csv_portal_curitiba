@@ -22,6 +22,7 @@ app.get('/', (req, res) => {
 		if (!err) {
 			Promise.map(files, filename => {
 				try {
+					console.log('Parsing: ' + filename);
 					let base = fs.readFileSync(base_dir + "/" + filename, "utf-8");
 					bases.push(JSON.parse(base));
 				} catch (err) {
