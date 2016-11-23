@@ -1,0 +1,95 @@
+{
+  "name": "Oficina de Música",
+  "description": "Dados e informações sobre os cursos da Oficina de Música de Curitiba, que acontece anualmente, no mês de janeiro, nos diversos espaços culturais da cidade.",
+  "csv": [
+    {
+      "slug":"categoria-nucleos",
+      "name":"Oficina de Musica - Categoria Nucleo",
+      "url":"http://multimidia.curitiba.pr.gov.br/dadosabertos/OficinaMusica/2016-03-22_Oficina_de_Musica_-_Categoria_Nucleo_-_Base_de_Dados.csv",
+      "docs": {
+      }
+    },
+    {
+      "slug":"cursos",
+      "name":"Oficina de Musica - Curso",
+      "url":"http://multimidia.curitiba.pr.gov.br/dadosabertos/OficinaMusica/2016-03-22_Oficina_de_Musica_-_Curso_-_Base_de_Dados.csv",
+      "docs": {
+      },
+    {
+      "slug":"espacos",
+      "name":"Oficina de Musica - Espaco",
+      "url":"http://multimidia.curitiba.pr.gov.br/dadosabertos/OficinaMusica/2016-03-22_Oficina_de_Musica_-_Espaco_-_Base_de_Dados.csv",
+      "docs": {
+      }
+    },
+    {
+      "slug":"eventos",
+      "name":"Oficina de Musica - Evento",
+      "url":"http://multimidia.curitiba.pr.gov.br/dadosabertos/OficinaMusica/2016-03-22_Oficina_de_Musica_-_Evento_-_Base_de_Dados.csv",
+      "docs": {
+      }
+    },
+    {
+      "slug":"nucleos",
+      "name":"Oficina de Musica - Nucleo",
+      "url":"http://multimidia.curitiba.pr.gov.br/dadosabertos/OficinaMusica/2016-03-22_Oficina_de_Musica_-_Nucleo_-_Base_de_Dados.csv",
+      "docs": {
+      }
+    },
+    {
+      "slug":"oficinas",
+      "name":"Oficina de Musica - Oficina",
+      "url":"http://multimidia.curitiba.pr.gov.br/dadosabertos/OficinaMusica/2016-03-22_Oficina_de_Musica_-_Oficina_-_Base_de_Dados.csv",
+      "docs": {
+      }
+    },
+    {
+      "slug":"professores",
+      "name":"Oficina de Musica - Professor",
+      "url":"http://multimidia.curitiba.pr.gov.br/dadosabertos/OficinaMusica/2016-03-23_Oficina_de_Musica_-_Professor_-_Base_de_Dados.csv",
+      "docs": {
+      }
+    },
+    {
+      "slug":"turmas",
+      "name":"Oficina de Musica - Turma",
+      "url":"http://multimidia.curitiba.pr.gov.br/dadosabertos/OficinaMusica/2016-03-22_Oficina_de_Musica_-_Turma_-_Base_de_Dados.csv",
+      "docs": {
+      }
+    }
+  ],
+  "refs": [
+    {
+      "name": "Oficina de Musica - Categoria Nucleo",
+      "url": "http://multimidia.curitiba.pr.gov.br/dadosabertos/OficinaMusica/2016-03-22_Oficina_de_Musica_-_Categoria_Nucleo_-_Dicionario_de_Dados.xlsx"
+    },
+    {
+      "name": "Oficina de Musica - Curso",
+      "url": "http://multimidia.curitiba.pr.gov.br/dadosabertos/OficinaMusica/2016-03-22_Oficina_de_Musica_-_Curso_-_Dicionario_de_Dados.xlsx"
+    },
+    {
+      "name": "Oficina de Musica - Espaco",
+      "url": "http://multimidia.curitiba.pr.gov.br/dadosabertos/OficinaMusica/2016-03-22_Oficina_de_Musica_-_Espaco_-_Dicionario_de_Dados.xlsx"
+    },
+    {
+      "name": "Oficina de Musica - Evento",
+      "url": "http://multimidia.curitiba.pr.gov.br/dadosabertos/OficinaMusica/2016-03-22_Oficina_de_Musica_-_Evento_-_Dicionario_de_Dados.xlsx"
+    },
+    {
+      "name": "Oficina de Musica - Nucleo",
+      "url": "http://multimidia.curitiba.pr.gov.br/dadosabertos/OficinaMusica/2016-03-22_Oficina_de_Musica_-_Nucleo_-_Dicionario_de_Dados.xlsx"
+    },
+    {
+      "name": "Oficina de Musica - Oficina",
+      "url": "http://multimidia.curitiba.pr.gov.br/dadosabertos/OficinaMusica/2016-03-22_Oficina_de_Musica_-_Oficina_-_Dicionario_de_Dados.xlsx"
+    },
+    {
+      "name": "Oficina de Musica - Professor",
+      "url": "http://multimidia.curitiba.pr.gov.br/dadosabertos/OficinaMusica/2016-03-23_Oficina_de_Musica_-_Professor_-_Dicionario_de_Dados.xlsx"
+    },
+    {
+      "name": "Oficina de Musica - Turma",
+      "url": "http://multimidia.curitiba.pr.gov.br/dadosabertos/OficinaMusica/2016-03-22_Oficina_de_Musica_-_Turma_-_Dicionario_de_Dados.xlsx"
+    }
+  ]  
+}
