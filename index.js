@@ -17,7 +17,6 @@ app.use('/bases', express.static('bases'));
 
 app.get('/', (req, res) => {
 
-
 	const base_dir = __dirname + '/bases';
 	fs.readdir(base_dir, (err, files) => {
 		let bases = [];

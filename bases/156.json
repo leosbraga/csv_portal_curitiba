@@ -1,7 +1,7 @@
 {
   "name": "156",
   "description": "Base de Dados contendo as solicitações geradas na Central 156, principal canal de comunicação entre o cidadão e a Prefeitura Municipal de Curitiba. Inclui todas as demandas direcionadas às Secretarias e Órgãos da Administração Municipal. Estes dados são oriundos do Sistema Integrado de Atendimento ao Cidadão - SIAC.",
-  "slug":"156",
+  "url":"https://open156.herokuapp.com",
   "csv": [
     {
       "slug":"156",

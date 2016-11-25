@@ -1,7 +1,6 @@
 {
   "name": "Portal FCC",
   "description": "Dados e informações sobre os espaços culturais da cidade, bem como informações vinculadas à Lei de Incentivo à Cultura",
-  "slug":"fcc",
   "csv": [
     {
       "slug":"area",
