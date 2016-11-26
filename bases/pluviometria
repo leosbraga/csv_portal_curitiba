@@ -1,0 +1,16 @@
+{
+  "name": "Estações Pluviométricas",
+  "description": "Estações Pluviométricas Curitiba 2016",
+  "url":"https://openpluviometria.herokuapp.com",
+  "csv": [
+    {
+      "slug":"estacoes",
+      "name":"Estações",
+      "url":"http://opencuritiba.herokuapp.com/static/1941_PR_2016_10.csv",
+      "docs": {
+      }
+    }
+  ],
+  "refs": [
+  ]  
+}
