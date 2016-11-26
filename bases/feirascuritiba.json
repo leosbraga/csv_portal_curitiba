@@ -1,6 +1,7 @@
 {
   "name": "Dados Brutos Pesquisa de Natal",
   "description": "Base de dados referente às entrevistas realizadas com o público que assiste às principais apresentações de Natal na cidade de Curitiba, entre elas estão o Palácio Avenida, Paço da Liberdade, Hotel Radisson. Os blocos de perguntas estão divididos em procedência do público, informações dos turistas, comportamento, opinião, perfil e sugestões.",
+  "url":"https://open156.herokuapp.com",
   "csv": [
     {
       "slug":"pesquisa2013",
