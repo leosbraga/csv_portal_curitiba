@@ -1,6 +1,7 @@
 {
   "name": "Oficina de Música",
   "description": "Dados e informações sobre os cursos da Oficina de Música de Curitiba, que acontece anualmente, no mês de janeiro, nos diversos espaços culturais da cidade.",
+  "url":"https://openoficinamusica.herokuapp.com",
   "csv": [
     {
       "slug":"categoria-nucleos",
