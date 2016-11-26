@@ -8,7 +8,6 @@
       "name":"saude medicos-dados abertos",
       "url":"http://multimidia.curitiba.pr.gov.br/dadosabertos/SESPAMedicoUnidadesMunicipaisDeSaude/2016-11-09_saude_medicos-dados_abertos.csv",
       "docs": {
-        "example_find_item": "find={\"Data do Atendimento\":\"01/01/2016\"}"
       }
     }
   ],
