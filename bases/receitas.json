@@ -1,6 +1,7 @@
 {
   "name": "Receitas",
   "description": "Todos os recursos financeiros que a Prefeitura recebe.",
+  "url":"https://openreceitas.herokuapp.com",
   "csv": [
     {
       "slug":"receitas",
