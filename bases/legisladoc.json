@@ -1,6 +1,7 @@
 {
   "name": "LEGISLADOC",
   "description": "O Sistema Municipal de Legislação (Legisladoc) é um sistema destinado a oferecer ao cidadão acesso online aos atos oficiais e ao Diário Oficial Eletrônico do Município. Tem como principais produtos a assinatura digital, a certificação eletrônica, o diário oficial com edições diárias, pesquisa da legislação municipal via intranet e internet, que trazem segurança, confiabilidade, transparência, clareza e publicidade.",
+  "url":"https://openlegisladoc.herokuapp.com",
   "csv": [
     {
       "slug":"legisladoc",
