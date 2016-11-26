@@ -8,8 +8,6 @@
       "name":"saude dentistas-dados abertos",
       "url":"http://multimidia.curitiba.pr.gov.br/dadosabertos/sespaodontologico/2016-11-09_saude_dentistas-dados_abertos.csv",
       "docs": {
-        "example_find_item": "find={\"Data do Atendimento\":\"01/01/2016\"}",
-        "example_find_items": "find={\"SEXO\":\"F\"}&limit=5"
       }   
     }
   ],

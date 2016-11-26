@@ -8,8 +8,6 @@
       "name":"Financeiro Despesas",
       "url":"http://multimidia.curitiba.pr.gov.br/dadosabertos/BaseReceitaDespesa/2016-11-01_Despesas_-_Base_de_Dados.csv",
       "docs": {
-        "example_find_item": "find={\"Data do Atendimento\":\"01/01/2016\"}",
-        "example_find_items": "find={\"SEXO\":\"F\"}&limit=5"
       }
     }
   ],

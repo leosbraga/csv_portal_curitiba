@@ -8,7 +8,7 @@
       "name":"imapaprendere - Base de Dados",
       "url":"http://multimidia.curitiba.pr.gov.br/dadosabertos/IMAPAprendere/2016-11-01_imapaprendere_-_Base_de_Dados.csv",
       "docs": {
-        
+        "example_find_items":"find={\"ANO_EXECUCAO\":\"2010\"}"
       }
     }
   ],
