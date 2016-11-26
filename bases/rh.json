@@ -1,6 +1,7 @@
 {
   "name": "Relações de servidores, cargos e encargos",
   "description": "Relação de dados financeiros e funcionais do mês atual, de servidores ativos de toda a municipalidade, compreendendo as entidades sob o mesmo regime jurídico único (exclui-se as entidades celetistas).",
+  "url":"https://openrh.herokuapp.com",
   "csv": [
     {
       "slug":"servidores",
