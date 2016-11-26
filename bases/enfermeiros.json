@@ -1,6 +1,7 @@
 {
   "name": "Saúde Enfermeiros",
   "description": "Base de dados do sistema Informatizado \"E-saúde\". Este sistema viabiliza o registro dos atendimentos de Enfermaria prestados pela Secretaria Municipal de Saúde de Curitiba em sua rede de atenção.",
+  "url":"https://openenfermeiros.herokuapp.com",
   "csv": [
     {
       "slug":"enfermeiros",
