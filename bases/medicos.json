@@ -1,6 +1,7 @@
 {
   "name": "Saúde Médicos",
   "description": "Base de dados do sistema Informatizado \"E-saúde\". Este sistema viabiliza o registro dos atendimentos médicos prestados pela Secretaria Municipal de Saúde de Curitiba em sua rede de atenção.",
+  "url":"https://openmedicos.herokuapp.com",
   "csv": [
     {
       "slug":"medicos",
