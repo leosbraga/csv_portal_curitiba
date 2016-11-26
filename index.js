@@ -14,6 +14,7 @@ module.exports = app;
 app.set('view engine', 'ejs');
 
 app.use('/bases', express.static('bases'));
+app.use('/static', express.static('static'));
 
 app.get('/', (req, res) => {
 
