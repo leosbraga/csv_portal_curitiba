@@ -1,6 +1,7 @@
 {
   "name": "Despesas",
   "description": "Todos os dispêndios realizados pela Prefeitura para o funcionamento e manutenção dos serviços públicos.",
+  "url":"https://opendespesas.herokuapp.com",
   "csv": [
     {
       "slug":"despesas",
