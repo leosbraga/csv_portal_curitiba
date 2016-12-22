@@ -18,8 +18,14 @@ app.set('view engine', 'ejs');
 
 app.use('/static', express.static('static'));
 
-function config_parser(json) {
+function config_parser(json,domain) {
 	return new Promise((resolve, reject) => {
+
+		// adding global fields
+		json.portal = {
+			"name": "CSV APIs de Curitiba",
+			"url": process.env.DOMAIN || "http://opencuritiba.herokuapp.com"
+		}
 
 	    const xml_url = json.xml;
 
@@ -33,43 +39,37 @@ function config_parser(json) {
 	            var parseString = require('xml2js').parseString;
 	            parseString(body, function (err, result) {
 
-	              let base = {
-	                "name" : result.dadosabertos.conjunto[0].titulo[0],
-	                "description" : result.dadosabertos.conjunto[0].descricao[0],
-	                "orgaoresponsavel" : result.dadosabertos.conjunto[0].orgaoresponsavel[0],
-	                "responsavel" : result.dadosabertos.conjunto[0].responsavel[0],
-	                "frequenciaatualizacao" : result.dadosabertos.conjunto[0].frequenciaatualizacao[0],
-	                "espectrotemporal" : result.dadosabertos.conjunto[0].espectrotemporal[0],
-	                "grupos" : result.dadosabertos.conjunto[0].grupos[0],
-	                "campos" : result.dadosabertos.conjunto[0].campos[0],
-	                "observacoes" : result.dadosabertos.conjunto[0].observacoes[0],
-	                "url" : json.url
-	              }
+	              if (!json.hasOwnProperty('name')) json.name = result.dadosabertos.conjunto[0].titulo[0].trim();
+	              if (!json.hasOwnProperty('description')) json.description = result.dadosabertos.conjunto[0].descricao[0].trim();
+
+	              ["orgaoresponsavel","responsavel","frequenciaatualizacao","espectrotemporal","grupos","campos","observacoes"].forEach((key) => {
+	              	json[key] = result.dadosabertos.conjunto[0][key][0].trim()
+	              });
 
 	              let tmp = xml_url.split('/');
 	              tmp.pop();
 	              const dados_path = tmp.join('/');
 
-	              base.csv = _.map(result.dadosabertos.conjunto[0].dados[0].dado, (dado) => {
+	              json.csv = _.map(result.dadosabertos.conjunto[0].dados[0].dado, (dado) => {
 
 	                dado = dado['$'];
 
-	                const name_split = dado.nome.split(' - ');
-	                const type = name_split.pop();
+	                const name_split = dado.nome.split('-');
+	                const type = name_split.pop().trim();
 
-	                if (type == "Base de Dados") {
-	                  const base_name = name_split.shift();
-	                  const table_name = (name_split.length > 0) ? name_split[0] : base_name;
+	                if (type.toUpperCase() == "BASE DE DADOS".toUpperCase()) {
+	                  const base_name = name_split.shift().trim();
+	                  const table_name = (name_split.length > 0) ? name_split[0].trim() : base_name;
 	                  return {
 	                    slug: table_name.toLowerCase().replace(/[^\w]+/g,''),
-	                    name: dado.nome,
+	                    name: dado.nome.trim(),
 	                    url: dados_path + "/" + dado.arquivo /*,
 	                    docs: ""*/
 	                  };
 	                }
 	              }).filter( (value) => { return value !== undefined; });
 
-	              base.refs = _.map(result.dadosabertos.conjunto[0].dados[0].dado, (dado) => {
+	              json.refs = _.map(result.dadosabertos.conjunto[0].dados[0].dado, (dado) => {
 
 	                dado = dado['$'];
 
@@ -86,7 +86,7 @@ function config_parser(json) {
 
 //	              let base_str = JSON.stringify(base, null, 2);
 //	              console.log(`Base config from adaptor ${base.name}:\n${base_str}`);
-	              return resolve(base);
+	              return resolve(json);
 	            });
 	          } else {
 	            console.log(error,response);
