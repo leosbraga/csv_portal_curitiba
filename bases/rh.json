@@ -1,21 +1,4 @@
 {
-  "name": "Relações de servidores, cargos e encargos",
-  "description": "Relação de dados financeiros e funcionais do mês atual, de servidores ativos de toda a municipalidade, compreendendo as entidades sob o mesmo regime jurídico único (exclui-se as entidades celetistas).",
-  "url":"https://openrh.herokuapp.com",
-  "csv": [
-    {
-      "slug":"servidores",
-      "name":"Servidores e Encargos - Base de Dados",
-      "url":"http://multimidia.curitiba.pr.gov.br/dadosabertos/ServidoresCargosEncargos/2016-11-05_Servidores_Cargos_Encargos_-_Base_de_Dados.csv",
-      "docs": {
-        
-      }
-    }
-  ],
-  "refs": [
-    {
-      "name": "Servidores e Encargos - Base de Dados",
-      "url": "http://multimidia.curitiba.pr.gov.br/dadosabertos/ServidoresCargosEncargos/2015-05-05_Servidores_Cargos_Encargos_-_Dicionario_de_Dados.xlsx"
-    }
-  ]  
+  "xml": "http://multimidia.curitiba.pr.gov.br/dadosabertos/ServidoresCargosEncargos/ServidoresCargosEncargos.xml",
+  "url":"https://openrh.herokuapp.com"
 }

@@ -1,20 +1,4 @@
 {
-  "name": "Financeiro Alvarás",
-  "description": "Relação de alvarás para liberação de atividades comercias e edificações dentro do município de Curitiba.",
-  "url":"https://openalvaras.herokuapp.com",
-  "csv": [
-    {
-      "slug":"alvaras",
-      "name":"Financeiro Alvarás",
-      "url":"http://multimidia.curitiba.pr.gov.br/dadosabertos/BaseAlvaras/2016-11-01_Alvaras-Base_de_Dados.CSV",
-      "docs": {
-      }
-    }
-  ],
-  "refs": [
-    {
-      "name": "Alvarás - Dicionario de Dados",
-      "url": "http://multimidia.curitiba.pr.gov.br/dadosabertos/BaseAlvaras/2015-05-06_Alvaras-Dicionario_de_Dados.csv"
-    }
-  ]
+  "xml": "http://multimidia.curitiba.pr.gov.br/dadosabertos/basealvaras/basealvaras.xml",
+  "url":"https://openalvaras.herokuapp.com"
 }

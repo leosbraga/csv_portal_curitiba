@@ -1,20 +1,4 @@
 {
-  "name": "Saúde Dentistas",
-  "description": "Base de dados do sistema Informatizado \"E-saúde\". Este sistema viabiliza o registro dos atendimentos de Dentistas prestados pela Secretaria Municipal de Saúde de Curitiba em sua rede de atenção.",
-  "url":"https://opendentistas.herokuapp.com",  
-  "csv": [
-    {
-      "slug":"dentistas",
-      "name":"saude dentistas-dados abertos",
-      "url":"http://multimidia.curitiba.pr.gov.br/dadosabertos/sespaodontologico/2016-11-09_saude_dentistas-dados_abertos.csv",
-      "docs": {
-      }   
-    }
-  ],
-  "refs": [
-    {
-      "name": "Dentistas-dados - Dicionario de Dados",
-      "url": "http://multimidia.curitiba.pr.gov.br/dadosabertos/sespaodontologico/2016-10-11_saude_dentistas-dicionario_de_dados.csv"
-    }
-  ]  
+  "xml": "http://multimidia.curitiba.pr.gov.br/dadosabertos/sespaodontologico/sespaodontologico.xml",
+  "url":"https://opendentistas.herokuapp.com"
 }
