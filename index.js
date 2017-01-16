@@ -56,9 +56,9 @@ function config_parser(json,domain) {
 
 	                const name_split = dado.nome.split('-');
 	                const type = name_split.pop().trim();
-//	                const ext = 
+	                const ext = dado.arquivo.split('.').slice(-1)[0];
 
-	                if (type.toUpperCase() == "BASE DE DADOS".toUpperCase()) {
+	                if ((["BASE DE DADOS","DADOS ABERTOS"].indexOf(type.toUpperCase()) != -1) && (ext.toUpperCase() == 'CSV')) {
 	                  const base_name = name_split.shift().trim();
 	                  const table_name = (name_split.length > 0) ? name_split[0].trim() : base_name;
 	                  return {
@@ -74,10 +74,11 @@ function config_parser(json,domain) {
 
 	                dado = dado['$'];
 
-	                const name_split = dado.nome.split(' - ');
-	                const type = name_split.pop();
+	                const name_split = dado.nome.split('-');
+	                const type = name_split.pop().trim();
+	                const ext = dado.arquivo.split('.').slice(-1)[0];
 
-	                if (type != "Base de Dados") {
+	                if ((["BASE DE DADOS","DADOS ABERTOS"].indexOf(type.toUpperCase()) == -1) || (ext.toUpperCase() != 'CSV')) {
 	                  return {
 	                    name: dado.nome,
 	                    url: dados_path + "/" + dado.arquivo
@@ -85,8 +86,6 @@ function config_parser(json,domain) {
 	                }
 	              }).filter( (value) => { return value !== undefined; });
 
-//	              let base_str = JSON.stringify(base, null, 2);
-//	              console.log(`Base config from adaptor ${base.name}:\n${base_str}`);
 	              return resolve(json);
 	            });
 	          } else {
@@ -120,11 +119,9 @@ function sync() {
 					parsing[filename] = true;
 					let base = fs.readFileSync(base_dir + "/" + filename, "utf-8");
 					config_parser(JSON.parse(base)).then((result) => {
-						setTimeout(() => {
-							console.log(`Base ${result.name} OK`);
-							bases[filename] = result;
-							delete parsing[filename];
-						}, 10000);
+						console.log(`Base ${result.name} OK`);
+						bases[filename] = result;
+						delete parsing[filename];
 					});
 				} catch (err) {
 					console.log(err);
@@ -160,8 +157,6 @@ app.get('/', (req, res) => {
 	var keys = Object.keys(bases);
 	var values = keys.map(function(v) { return bases[v]; });
 	var ready = (Object.keys(parsing).length == 0);
-	console.log(Object.keys(parsing).length);
-	console.log(ready);
 
 	res.render('pages/index', {
 		bases: values,
