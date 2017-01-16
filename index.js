@@ -56,6 +56,7 @@ function config_parser(json,domain) {
 
 	                const name_split = dado.nome.split('-');
 	                const type = name_split.pop().trim();
+//	                const ext = 
 
 	                if (type.toUpperCase() == "BASE DE DADOS".toUpperCase()) {
 	                  const base_name = name_split.shift().trim();
@@ -107,6 +108,7 @@ function config_parser(json,domain) {
 
 const base_dir = __dirname + '/bases';
 var bases = [];
+var parsing = [];
 
 function sync() {
 	console.log("Starting sync at " + moment().format('LLLL'));
@@ -115,10 +117,14 @@ function sync() {
 			Promise.map(files, filename => {
 				try {
 					console.log('Parsing: ' + filename);
+					parsing[filename] = true;
 					let base = fs.readFileSync(base_dir + "/" + filename, "utf-8");
 					config_parser(JSON.parse(base)).then((result) => {
-						console.log(`Base ${result.name} OK`);
-						bases[filename] = result;
+						setTimeout(() => {
+							console.log(`Base ${result.name} OK`);
+							bases[filename] = result;
+							delete parsing[filename];
+						}, 10000);
 					});
 				} catch (err) {
 					console.log(err);
@@ -151,12 +157,15 @@ app.get('/bases/:file', (req,res) => {
 });
 
 app.get('/', (req, res) => {
-	console.log(bases);
 	var keys = Object.keys(bases);
 	var values = keys.map(function(v) { return bases[v]; });
+	var ready = (Object.keys(parsing).length == 0);
+	console.log(Object.keys(parsing).length);
+	console.log(ready);
 
 	res.render('pages/index', {
-		bases: values
+		bases: values,
+		ready: ready
 	});
 });
 

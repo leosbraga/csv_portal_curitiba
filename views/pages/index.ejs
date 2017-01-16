@@ -5,11 +5,30 @@
     
         <div class="jumbotron">
             <h1>CSV APIs de Curitiba</h1>
-            <p><%= bases.length %> web services permitindo um acesso automatizado aos dados abertos CSV da Prefeitura de Curitiba</p>
+            <% if (! ready) { %>
+                <p>Lista de web services permitindo um acesso automatizado aos dados abertos CSV da Prefeitura de Curitiba</p>
+            <% } else { %>
+                <p><%= bases.length %> web services permitindo um acesso automatizado aos dados abertos CSV da Prefeitura de Curitiba</p>
+            <% } %>
         </div>
         
     </div>
 </div>
+
+<% if (! ready) { %>
+
+<div class="row">
+    <div class="col-sm-12">
+        <img src="/static/loader.gif"/> <strong>Carregando as bases, por favor espere ...</strong>
+    </div>
+</div>
+
+<script>
+    setTimeout(function () {
+            location.reload()
+        }, 5000);
+</script>
+<% } else { %>
 
 <div class="row">
 	<% bases.forEach(function(base){ %>
@@ -18,5 +37,7 @@
 	    </div>
 	<% }); %>
 </div>
+
+<% } %>
 
 <% include ../partials/footer %>
